@@ -9,3 +9,17 @@ body {
 .poll__title {
   margin-bottom: 20px;
 }
+
+.poll__answer {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.poll__answer:hover {
+  background-color: #2980b9;
+}
